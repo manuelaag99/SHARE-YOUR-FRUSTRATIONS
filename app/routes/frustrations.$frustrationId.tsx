@@ -1,5 +1,7 @@
 export default function FrustrationRoute () {
     return (
-        <div></div>
-    )
+        <div>
+            <p>My children really stress me out!</p>
+        </div>
+    );
 }

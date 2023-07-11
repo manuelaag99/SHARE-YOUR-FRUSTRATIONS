@@ -1,0 +1,27 @@
+body {
+    background-color: #8cafda;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    color: #feea9b;
+    font-size: 3rem;
+}
+
+h2 {
+    font-style: italic;
+}
