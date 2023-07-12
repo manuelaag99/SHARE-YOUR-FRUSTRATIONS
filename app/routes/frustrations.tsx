@@ -22,6 +22,9 @@ export default function Frustrations () {
                 </div>
             </div>
             <div className="frustrations-list-container">
+                <div className="frustrations-list-text">
+                    Click on each person's name to see their frustration.
+                </div>
                 <ul>
                     {data.frustrationListItems.map(({ id, author }) => {
                         return <li key={id}>

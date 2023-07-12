@@ -1,16 +1,19 @@
 body {
     background-image: url("https://images.pexels.com/photos/1118869/pexels-photo-1118869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #eee;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%
+    height: 100vh;
+    font-family: 'Belanosima', sans-serif;
+    text-shadow: 5px 5px 15px black;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 5px solid black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +34,8 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .frustrations-button {
@@ -52,13 +57,30 @@ h2 {
 
 .frustrations-list-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+.frustrations-list-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .frustrations-list-container ul {
-    width: 70%;
-    text-decoration: none;
-    color: inherit;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frustrations-list-container ul li {
+    color: #eee;
+}
+
+.frustrations-list-container ul:hover {
+    color: #ccc;
+    transition: all 0.4s ease;
 }
 
 form {
@@ -116,7 +138,6 @@ form {
     background-color: #e98686;
     transition: all 0.4s ease;
 }
-
 
 @media (max-width: 800px) and (min-width: 100px) {
     h1 {
